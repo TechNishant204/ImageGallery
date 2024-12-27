@@ -11,5 +11,7 @@
 
 <li>Interactive Navigation: Allows users to navigate through photos easily.</li>
 </ul>
+https://github.com/TechNishant204/ImageGallery/blob/535b1f07dc183b6c2fa254be6e52bd0e9372d58d/Screenshot%202024-12-27%20230328.png
+
 
 
