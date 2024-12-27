@@ -1,27 +1,15 @@
-Wedding Gallery
+<h1>Wedding Gallery</h1>
 
-Project Description
-The Wedding Gallery is a simple JavaScript-based project showcasing a collection of my personal wedding photos. The gallery features an interactive and user-friendly interface for viewing wedding memories.
+<h2>Project Description</h2>
+<p></p>The Wedding Gallery is a simple JavaScript-based project showcasing a collection of my personal wedding photos. The gallery features an interactive and user-friendly interface for viewing wedding memories.</p>
 
-Features
-Photo Gallery: Displays a collection of wedding photos.
+<h3>Features</h3>
+<ul>
+  <li>Photo Gallery: Displays a collection of wedding photos.</li>
 
-Responsive Design: Ensures the gallery looks great on all devices.
+  <li>Responsive Design: Ensures the gallery looks great on all devices.</li>
 
-Interactive Navigation: Allows users to navigate through photos easily.
-
-Technologies Used
-HTML5: Structure of the web page.
-
-CSS3: Styling and layout.
-
-JavaScript: Interactivity and functionality.
+<li>Interactive Navigation: Allows users to navigate through photos easily.</li>
+</ul>
 
 
-
-
-Getting Started
-Prerequisites
-A web browser (e.g., Chrome, Firefox, Safari)
-
-A code editor (e.g., VS Code, Sublime Text)
