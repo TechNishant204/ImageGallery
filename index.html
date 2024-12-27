@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant PhotoShoot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">
+        <h1>Wedding Gallery</h1> 
+    </div>
+    <div class="gallery-wrap">
+        <img src="images/back.png" id="backBtn" alt="back btn">
+        <div class="gallery">
+            <div>
+                <span><img src="images/i1 .JPG" alt="img1"></span>
+                <span><img src="images/i2 .JPG" alt="img2"></span>
+                <span><img src="images/i3.JPG" alt="img3"></span>
+            </div>
+            <div>
+                <span><img src="images/i4.JPG" alt="img1"></span>
+                <span><img src="images/i5.JPG" alt="img2"></span>
+                <span><img src="images/i6.JPG" alt="img3"></span>
+            </div>
+        </div>
+        <img src="images/next.png" alt="next button" id="nextBtn">        
+    </div>
+    <div class="gallery-wrap2">
+        <img src="images/back.png" id="backBtn2" alt="back btn" >
+        <div class="gallery2">
+            <div>
+                <span><img src="images/img1.jpg" alt="img1"></span>
+                <span><img src="images/img2.jpg" alt="img2"></span>
+                <span><img src="images/img3.jpg" alt="img3"></span>
+            </div>
+            <div>
+                <span><img src="images/imgg4.jpg" alt="img1"></span>
+                <span><img src="images/img5.jpg" alt="img2"></span>
+                <span><img src="images/imgg.jpg" alt="img3"></span>
+            </div>
+        </div>
+        <img src="images/next.png" alt="next button" id="nextBtn2">
+    </div>
+
+    <script>
+        let scrollContainer = document.querySelector(".gallery");
+        let backBtn = document.getElementById("backBtn");
+        let nextBtn = document.getElementById("nextBtn");
+        
+        scrollContainer.addEventListener("wheel", (evt) => {
+            evt.preventDefault();
+            scrollContainer.scrollLeft += evt.deltaY;
+            scrollContainer.style.scrollBehavior = "auto";
+        });
+
+        nextBtn.addEventListener("click", () => {
+            scrollContainer.style.scrollBehavior = "smooth";
+            scrollContainer.scrollLeft += 900;
+        });
+
+        backBtn.addEventListener("click", () => {
+            scrollContainer.style.scrollBehavior = "smooth";
+            scrollContainer.scrollLeft -= 900;
+        });
+
+        let scrollContainer2 = document.querySelector(".gallery2");
+        let backBtn2 = document.getElementById("backBtn2");
+        let nextBtn2 = document.getElementById("nextBtn2");
+        
+        scrollContainer2.
+        addEventListener("wheel", (evt) => {
+            evt.preventDefault();
+            scrollContainer2.scrollLeft += evt.deltaY;
+            scrollContainer.style.scrollBehavior = "auto";
+        });
+
+        nextBtn2.addEventListener("click", () => {
+            scrollContainer2.style.scrollBehavior = "smooth";
+            scrollContainer2.scrollLeft += 900;
+        });
+
+        backBtn2.addEventListener("click", () => {
+            scrollContainer2.style.scrollBehavior = "smooth";
+            scrollContainer2.scrollLeft -= 900;
+        });
+
+
+
+
+
+
+    </script>
+</body>
+</html>
