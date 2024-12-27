@@ -1,7 +1,5 @@
-create a readme for js mini project named wedding gallery in which i have added some pics of mine of wedding
-Certainly! Here’s a sample README file for your JavaScript mini-project named "Wedding Gallery":
-
 Wedding Gallery
+
 Project Description
 The Wedding Gallery is a simple JavaScript-based project showcasing a collection of my personal wedding photos. The gallery features an interactive and user-friendly interface for viewing wedding memories.
 
@@ -19,7 +17,7 @@ CSS3: Styling and layout.
 
 JavaScript: Interactivity and functionality.
 
-(https://github.com/user-attachments/assets/b2758495-26d2-4332-bfe1-ee9515c4b0b7)
+
 
 
 Getting Started
